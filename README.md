@@ -1,50 +1,95 @@
 # Multi-Utility Toolkit
 
 ## Description  
-This is a Python-based command-line application that provides multiple utilities in one program. It is designed to perform common tasks such as date & time operations, mathematical calculations, random data generation, file handling, and UUID generation.
+The Multi-Utility Toolkit is a Python-based command-line application developed using a modular programming approach.  
+The project is divided into multiple custom modules, each responsible for a specific functionality. This improves code organization, readability, reusability, and maintainability.
+
+The main program (main.py) acts as a controller that connects all modules and provides a menu-driven interface to the user.
+
+---
+
+## Project Structure  
+
+project/
+│
+├── main.py
+├── utils/
+│   ├── datetime_tools.py
+│   ├── math_tools.py
+│   ├── random_tools.py
+│   ├── uuid_tools.py
+│   └── file_tools.py
+
+---
+
+## Modules Explanation  
+
+### 1. datetime_tools  
+Handles all date and time related operations:  
+- Get current date and time  
+- Format date and time  
+- Calculate difference between two dates  
+- Stopwatch functionality  
+- Countdown timer  
+
+---
+
+### 2. math_tools  
+Performs mathematical computations:  
+- Factorial calculation  
+- Compound interest calculation  
+- Trigonometric functions (sin, cos, tan, etc.)  
+- Area calculation (circle, rectangle)  
+
+---
+
+### 3. random_tools  
+Generates random data and utilities:  
+- Random number generation  
+- Random list creation  
+- Password generator  
+- OTP generator  
+- Random sampling from data  
+- Dice simulation game  
+
+---
+
+### 4. uuid_tools  
+- Generates unique identifiers (UUID)  
+- Useful for applications requiring unique IDs  
+
+---
+
+### 5. file_tools  
+Performs file handling operations:  
+- Create file  
+- Write data to file  
+- Read file content  
+- Append data to file  
+
+---
+
+## Main Program (main.py)  
+
+- Provides a menu-driven interface  
+- Calls functions from different modules  
+- Handles user input and navigation  
+- Ensures separation of concerns  
 
 ---
 
 ## Features  
 
-### 1. Date & Time Operations  
-- Current date and time  
-- Custom date formatting  
-- Difference between two dates  
-- Stopwatch  
-- Countdown timer  
-
-### 2. Mathematical Operations  
-- Factorial calculation  
-- Compound interest calculation  
-- Trigonometric functions  
-- Area of shapes (circle, rectangle)  
-
-### 3. Random Data Generation  
-- Random number  
-- Random list  
-- Password generator  
-- OTP generator  
-- Random sampling  
-- Dice game  
-
-### 4. UUID Generator  
-- Generate unique identifiers  
-
-### 5. File Operations  
-- Create file  
-- Write to file  
-- Read file  
-- Append data to file  
-
-### 6. Module Explorer  
-- View attributes of any Python module using `dir()`  
+- Modular design (each functionality in separate file)  
+- Easy to extend and maintain  
+- User-friendly menu system  
+- Covers multiple real-world utilities in one program  
 
 ---
 
 ## Video Explanation  
 Watch the working and explanation of this project here:  
- 
+  
 
 ---
 
